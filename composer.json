@@ -1,0 +1,33 @@
+{
+    "name": "devworks/sculpin-scss-bundle",
+    "description": "Sculpin SCSS Bundle",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/devworks/sculpin-scss-bundle",
+    "authors": [
+        {
+            "name": "Ioannis Kappas",
+            "email": "ikappas@devworks.gr",
+            "role": "Developer"
+        }
+    ],
+    "keywords": [
+        "sculpin",
+        "bundle",
+        "scss",
+        "scssphp"
+    ],
+    "support": {
+        "issues": "https://github.com/devworks/sculpin-scss-bundle/issues",
+        "wiki": "https://github.com/devworks/sculpin-scss-bundle/wiki"
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "leafo/scssphp": "0.7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "DevWorks\\Sculpin\\Bundle\\ScssBundle\\": "src/"
+        }
+    }
+}
