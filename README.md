@@ -45,7 +45,7 @@ class SculpinKernel extends \Sculpin\Bundle\SculpinBundle\HttpKernel\AbstractKer
 sculpin_scss:
 
     # The formatter to use
-    formatter_class: 'Leafo\\ScssPhp\\Formatter\\Compressed'
+    formatter_class: 'Leafo\ScssPhp\Formatter\Compressed'
     extensions: ["scss"]
     files: ["assets/css/style.scss"]
 ```
